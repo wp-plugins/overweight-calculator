@@ -17,7 +17,7 @@ You can try the [overweight calculator demo](http://calendarscripts.info/overwei
 
 == Installation ==
 
-1. Upload overweight-calculator.php` to the `/wp-content/plugins/` directory
+1. Upload overweight-calculator.php to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure the CSS classes in the admin screen in Plugins/Overweight Calculator Configuration. This is optional, the calculator will work fine without any CSS classes.
 4. Place `[overweight-calculator]` in the content of a page or post. The calculator will appear on the place of this tag
