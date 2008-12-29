@@ -9,7 +9,9 @@ This plugin displays functional overweight / BMI calculator
 
 == Description ==
 
-This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range 
+This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range.
+
+View [online ovulation predictor](http://calendarscripts.info/ovulation-predictor.html "Try the ovulation predictor") demo.
 
 
 == Installation ==
