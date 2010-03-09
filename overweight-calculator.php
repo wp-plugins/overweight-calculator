@@ -4,7 +4,7 @@ Plugin Name: Overweight Calculator
 Plugin URI: http://calendarscripts.info/overweight-calculator-wordpress-plugin.html
 Description:This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range 
 Author: Bobby Handzhiev
-Version: 1.0
+Version: 1.1
 Author URI: http://pimteam.net/
 */ 
 
@@ -60,7 +60,7 @@ function overweightcalculator_options()
 		    echo "<h2>" . __( 'Overweigth Calculator Options', 'ocalc_domain' ) . "</h2>";		
 		    // options form		    
 		    ?>
-		
+		<div>
 		<form name="form1" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 		<input type="hidden" name="ocalc_update" value="Y">
 		
@@ -167,8 +167,8 @@ function overweight_calculator($content)
 	      }
 	      
 	      
-	      $ovcalc.="<p align=\"center\"><a href=\"#\" onclick=\"javascript:history.back();\">Calculate again</a></p>
-	      </div>";
+	      $ovcalc.='<p align="center"><a href="http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'">Calculate again</a></p>
+	      </div>';
 	      
 	}
 	else
@@ -181,7 +181,9 @@ function overweight_calculator($content)
 	     for($i=50;$i<=600;$i++)
 	     {
 		    $kg=number_format($i*0.453,1,".","");
-		    $ovcalc.="<option value='$i'>$kg kg / $i lbs</option>";
+			if($i==170) $selected="selected"; // default to some reasonable value
+			else $selected="";
+		    $ovcalc.="<option $selected value='$i'>$kg kg / $i lbs</option>";
 	     }
 	     
 	     $ovcalc.="</select></td></tr>
@@ -193,7 +195,9 @@ function overweight_calculator($content)
 		    $feets=floor($i/12);
 		    $in=$i%12;
 		    $cm=number_format($i*2.54);
-		    $ovcalc.="<option value='$i'>$cm cm / $feets ft $in in</option>";
+			if($i==70) $selected="selected"; // default to some reasonable value
+			else $selected="";
+		    $ovcalc.="<option $selected value='$i'>$cm cm / $feets ft $in in</option>";
 	     }
 	    
 		$ovcalc.='</select></td></tr>
