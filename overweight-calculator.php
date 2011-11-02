@@ -3,14 +3,12 @@
 Plugin Name: Overweight Calculator
 Plugin URI: http://calendarscripts.info/overweight-calculator-wordpress-plugin.html
 Description:This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range 
-Author: Bobby Handzhiev
+Author: Bobby Handzhiev, prasunsen
 Version: 1.1
 Author URI: http://pimteam.net/
 */ 
 
-/*  Copyright 2008  Bobby Handzhiev (email : admin@pimteam.net)
-
-    This program is free software; you can redistribute it and/or modify
+/*  This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation; either version 2 of the License, or
     (at your option) any later version.

@@ -2,7 +2,7 @@
 Contributors: prasunsen
 Tags: oveweight, bmi, calculator, body mass, body mass index
 Requires at least: 2.0.2
-Tested up to: 2.5
+Tested up to: 3.2
 Stable tag: 1.1
 
 This plugin displays functional overweight / BMI calculator
