@@ -2,8 +2,8 @@
 Contributors: prasunsen
 Tags: oveweight, bmi, calculator, body mass, body mass index
 Requires at least: 2.0.2
-Tested up to: 3.2
-Stable tag: 1.1
+Tested up to: 3.4.1
+Stable tag: trunk
 
 This plugin displays functional overweight / BMI calculator
 
@@ -20,6 +20,10 @@ This plugin displays functional overweight calculator / BMI calculator. It can b
 4. Place `[overweight-calculator]` in the content of a page or post. The calculator will appear on the place of this tag
 
 == Frequently Asked Questions ==
+
+= How to actually use this?! =
+
+Once activated just place `[overweight-calculator]` in the content of a page or post exactly at the place where you want the calculator to appear. 
 
 = Can I use change the CSS? =
 

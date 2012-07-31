@@ -2,9 +2,9 @@
 /*
 Plugin Name: Overweight Calculator
 Plugin URI: http://calendarscripts.info/overweight-calculator-wordpress-plugin.html
-Description:This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range 
+Description:This plugin displays functional overweight calculator / BMI calculator. It can be used to check the user's Body Mass Index and suggest the recommended weight range. <strong>Just enter [overweight-calculator] in any post or page</strong> and the calculator will be displayed. <strong>See also <a href="http://calendarscripts.info/weight-loss-calculator.html">this one</a></strong> - it might be interesting for sharing with your readers.  
 Author: Bobby Handzhiev, prasunsen
-Version: 1.1
+Version: 1.2
 Author URI: http://pimteam.net/
 */ 
 
@@ -213,5 +213,3 @@ function overweight_calculator($content)
 
 add_action('admin_menu','overweightcalculator_add_page');
 add_filter('the_content', 'overweight_calculator');
-
-?>
